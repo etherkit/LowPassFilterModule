@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by Cvpcb 0.201501172016+5377~20~ubuntu14.04.1-product   date = Sat 02 May 2015 02:56:43 PM PDT
+
+BeginCmp
+TimeStamp = /553549D4;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55354A17;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55354ABA;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55354B66;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55354443;
+Reference = J1;
+ValeurCmp = SMA;
+IdModule  = EtherkitKicadLibrary:SMA-ENDLAUNCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5543C6EA;
+Reference = J2;
+ValeurCmp = CONN_3;
+IdModule  = EtherkitKicadLibrary:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5535438E;
+Reference = J3;
+ValeurCmp = SMA;
+IdModule  = EtherkitKicadLibrary:SMA-ENDLAUNCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5543C619;
+Reference = J4;
+ValeurCmp = CONN_3;
+IdModule  = EtherkitKicadLibrary:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553544AE;
+Reference = L1;
+ValeurCmp = L-IRONCORE;
+IdModule  = EtherkitKicadLibrary:T37-V;
+EndCmp
+
+BeginCmp
+TimeStamp = /553547CD;
+Reference = L2;
+ValeurCmp = L-IRONCORE;
+IdModule  = EtherkitKicadLibrary:T37-V;
+EndCmp
+
+BeginCmp
+TimeStamp = /5535484F;
+Reference = L3;
+ValeurCmp = L-IRONCORE;
+IdModule  = EtherkitKicadLibrary:T37-V;
+EndCmp
+
+EndListe

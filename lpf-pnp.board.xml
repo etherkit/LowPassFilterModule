@@ -1,0 +1,18 @@
+<openpnp-board name="lpf-pnp.board.xml">
+   <outline units="Millimeters"/>
+   <fiducials/>
+   <placements>
+      <placement version="1.1" id="C1" side="Top" part-id="C_1206_HandSolde-C" type="Place">
+         <location units="Millimeters" x="117.05" y="-94.9" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.1" id="C2" side="Top" part-id="C_1206_HandSolde-C" type="Place">
+         <location units="Millimeters" x="120.55" y="-94.9" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.1" id="C3" side="Top" part-id="C_1206_HandSolde-C" type="Place">
+         <location units="Millimeters" x="124.05" y="-94.9" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.1" id="C4" side="Top" part-id="C_1206_HandSolde-C" type="Place">
+         <location units="Millimeters" x="127.55" y="-94.9" z="0.0" rotation="270.0"/>
+      </placement>
+   </placements>
+</openpnp-board>
