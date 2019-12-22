@@ -1,26 +1,59 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BNC
+# Connector_Generic_Conn_01x04
 #
-DEF BNC J 0 40 N N 1 F N
-F0 "J" 0 180 50 H V C CNN
-F1 "BNC" 0 110 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
 DRAW
-C 0 0 20 0 1 8 N
-C 0 0 70 0 1 12 N
-X In 1 -150 0 130 R 40 40 1 1 P
-X Ext 2 0 -150 75 U 40 40 1 1 P
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C
+# Connector_Generic_Conn_01x05
 #
-DEF C C 0 0 N Y 1 F N
+DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x05" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EtherkitKicadLibrary_C
+#
+DEF EtherkitKicadLibrary_C C 0 0 N Y 1 F N
 F0 "C" 150 35 50 H V C CNN
-F1 "C" 150 -40 50 H V C CNN
+F1 "EtherkitKicadLibrary_C" 150 -40 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -37,50 +70,11 @@ X ~ 2 0 -100 70 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_01X04
+# EtherkitKicadLibrary_L-IRONCORE
 #
-DEF CONN_01X04 J 0 40 Y N 1 F N
-F0 "J" 0 250 50 H V C CNN
-F1 "CONN_01X04" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
-$ENDFPLIST
-DRAW
-S -50 -145 10 -155 0 1 0 N
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 200 50 -200 0 1 0 N
-X P1 1 -200 150 150 R 50 50 1 1 P
-X P2 2 -200 50 150 R 50 50 1 1 P
-X P3 3 -200 -50 150 R 50 50 1 1 P
-X P4 4 -200 -150 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# GND
-#
-DEF GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# L-IRONCORE
-#
-DEF L-IRONCORE L 0 40 N N 1 F N
+DEF EtherkitKicadLibrary_L-IRONCORE L 0 40 N N 1 F N
 F0 "L" -65 35 50 H V C CNN
-F1 "L-IRONCORE" -250 -45 50 H V C CNN
+F1 "EtherkitKicadLibrary_L-IRONCORE" -250 -45 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -95,11 +89,11 @@ X 2 2 -50 -160 50 R 70 70 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R
+# EtherkitKicadLibrary_R
 #
-DEF R R 0 0 N Y 1 F N
+DEF EtherkitKicadLibrary_R R 0 0 N Y 1 F N
 F0 "R" 110 40 50 H V C CNN
-F1 "R" 90 -40 50 H V C CNN
+F1 "EtherkitKicadLibrary_R" 90 -40 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -115,17 +109,43 @@ X ~ 2 0 -150 30 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# VCC
+# LowPassFilterModule-rescue_GND
 #
-DEF VCC #PWR 0 0 Y Y 1 F P
+DEF LowPassFilterModule-rescue_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "LowPassFilterModule-rescue_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LowPassFilterModule-rescue_VCC
+#
+DEF LowPassFilterModule-rescue_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VCC" 0 150 50 H V C CNN
+F1 "LowPassFilterModule-rescue_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

@@ -1,0 +1,24 @@
+Low Pass Filter Module BOM
+Rev A
+Etherkit
+20 May 2019
+
+| Part (marking)                  | Qty  | Ref                            | P/N
+======================================================================================================
+Capacitors (size 0805)
+| Various ceramic                   7      C1, C2, C3, C4, C5, C6, C7       See schematic
+
+Resistors & Trimmers (0.1 W size 0603, 1%)
+| Various                           2      R1, R2                           See schematic 
+
+Inductors
+| Various size-37 cores             3      L1, L2, L3                       See schematic                             
+
+Connectors
+| 0.1" header, 5 machined pins      1      J1
+| 0.1" header, 4 machined pins      1      J2
+
+Miscellaneous
+| PCB                               1
+| 26 AWG magnet wire (cm)           var.
+

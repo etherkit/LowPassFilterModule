@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LowPassFilterModule-rescue)(type Legacy)(uri ${KIPRJMOD}/LowPassFilterModule-rescue.lib)(options "")(descr ""))
+  (lib (name EtherkitKicadLibrary)(type Legacy)(uri /home/jason/Nextcloud/Etherkit/git/EtherkitKicadLibrary/EtherkitKicadLibrary.lib)(options "")(descr ""))
+)
